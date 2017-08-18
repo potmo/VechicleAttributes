@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  VehicleAttributes
+
+  Created by Tom Dowding on 16/08/2017.
+
+*/
+
+"car_data_request_error_title" = "Car Data Error";
+
+"api_helper_error" = "The request was not successful.";
+
+"no_internet_suggestion" = "Please check your device and try again.";
+
+"ok_button" = "OK";
+
+"manual_gearbox" = "Manual";
+
+"automatic_gearbox" = "Automatic";
+
+"gasoline" = "Gasoline";
+
+"diesel" = "diesel";
+
+"mixed_driving_style" = "Mixed driving";
+
+"urban_driving_style" = "Urban driving";
+
+"rural_driving_style" = "Rural driving";
+
+"unknown_attribute" = "Unknown";
+
+"average_consumption" = "Average consumption";
+
+"consumption_unit_metric" = "liters/km";
+
+"consumption_unit_imperial" = "liters/mile";
+
+"emission_unit_metric" = "kg/km";
+
+"emission_unit_imperial" = "kg/mile";
+
+"last_updated_on" = "Data updated";

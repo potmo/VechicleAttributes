@@ -1,0 +1,45 @@
+{
+    "regno": "abc124",
+    "vin": "tmagc61z852094863",
+    "timestamp": "2015-05-29T12:18:31.390Z",
+    "emission": {
+        "gasoline": {
+            "co2": {
+                "mixed": 0.000175,
+                "rural": 0.000175
+            },
+            "no2": {
+                "mixed": 0.000175,
+                "rural": 0.000175
+            }
+        },
+        "hydrogen": {
+            "hO2": {
+                "mixed": 1.1,
+                "rural": 10.1233323
+            },
+        }
+    },
+    "fuel": {
+        "gasoline": {
+            "average_consumption": {
+                "urban": 0.000099,
+                "rural": 0.000058,
+                "mixed": 0.000073
+            }
+        },
+        "hydrogen": {
+            "average_consumption": {
+                "urban": 0.000199,
+                "rural": 0.000158,
+                "mixed": 0.000173
+            }
+        }
+    },
+    "gearbox_type": "manual",
+    "year": 2005,
+    "brand": "volvo",
+    "fuel_types": [
+                   "gasoline"
+    ]
+}
