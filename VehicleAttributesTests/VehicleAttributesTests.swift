@@ -33,7 +33,7 @@ class VehicleAttributesTests: XCTestCase {
         }
     }
     
-    //MARK: Car Class Tests
+    // MARK: - Car Class Tests
 
     // Confirm that the Car initializer returns a Car object when passed valid parameters.
     func testCarInitializatonSucceeds() {

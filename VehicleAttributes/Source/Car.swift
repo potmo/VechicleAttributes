@@ -41,8 +41,6 @@ class Car {
     // Uses the Car's vin to fetch data from the api and define it's properties
     func GetData(completion: @escaping GetDataCompletion) {
         
-        //APIHelper.getLocalTestData(filename: "vehicle_attributes")  { json, errorMessage in
-            
         APIHelper.GetData(vin: self.vin) { json, errorMessage in
              
             if let regno = json?["regno"] as? String {
@@ -122,11 +120,11 @@ class Car {
     
     func debugPrint() {
         
-        print("Car has regno: \(String(describing:self.regno))")
-        print("Car has gearbox of type: \(self.gearbox?.gearboxType)")
-        print("Car has brand: \(self.brand)")
-        print("Car has year: \(self.year)")
-        print("Car has timestamp: \(self.timestamp)")
+        print("Car has regno: \(self.regno ?? "unknown"))")
+        print("Car has gearbox of type: \(self.gearbox?.gearboxType ?? GearboxType.Unknown)")
+        print("Car has brand: \(self.brand ?? "unknown")")
+        print("Car has year: \(self.year ?? 0)")
+        print("Car has timestamp: \(self.timestamp ?? "unknown")")
         
         self.debugPrintEmissions()
         self.debugPrintFuels()

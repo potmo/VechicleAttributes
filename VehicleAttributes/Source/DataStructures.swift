@@ -19,7 +19,6 @@ enum FuelType {
     case Gasoline
     case Diesel
     case Unknown
-    // There may be more, this is passed in json
 }
 
 enum DrivingType {

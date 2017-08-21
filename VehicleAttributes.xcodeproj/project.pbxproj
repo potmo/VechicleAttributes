@@ -21,7 +21,7 @@
 		E2985F691F4616350006BACF /* FuelConsumptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2985F681F4616350006BACF /* FuelConsumptionTableViewCell.swift */; };
 		E2985F701F46345F0006BACF /* EmissionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2985F6F1F46345F0006BACF /* EmissionTableViewCell.swift */; };
 		E2985F721F46EC240006BACF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2985F711F46EC240006BACF /* Constants.swift */; };
-		E2985F741F46FAA90006BACF /* vehicle_attributes.json in Resources */ = {isa = PBXBuildFile; fileRef = E2985F731F46FAA90006BACF /* vehicle_attributes.json */; };
+		E2985F741F46FAA90006BACF /* test_vehicle_attributes.json in Resources */ = {isa = PBXBuildFile; fileRef = E2985F731F46FAA90006BACF /* test_vehicle_attributes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,15 +48,12 @@
 		E23150541F4374B300BB8712 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStructures.swift; path = Source/DataStructures.swift; sourceTree = "<group>"; };
 		E231505C1F437F1300BB8712 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = Source/APIHelper.swift; sourceTree = "<group>"; };
 		E231505E1F4451AE00BB8712 /* VehicleAttributesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehicleAttributesViewController.swift; path = Source/VehicleAttributesViewController.swift; sourceTree = "<group>"; };
-		E23150621F44565300BB8712 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		E23150641F4456A300BB8712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E23150661F4456BD00BB8712 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2985F5C1F45D8250006BACF /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Source/UIViewExtensions.swift; sourceTree = "<group>"; };
-		E2985F671F45E6F20006BACF /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Main.strings"; sourceTree = "<group>"; };
 		E2985F681F4616350006BACF /* FuelConsumptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelConsumptionTableViewCell.swift; path = Source/FuelConsumptionTableViewCell.swift; sourceTree = "<group>"; };
 		E2985F6F1F46345F0006BACF /* EmissionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmissionTableViewCell.swift; path = Source/EmissionTableViewCell.swift; sourceTree = "<group>"; };
 		E2985F711F46EC240006BACF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Constants.swift; sourceTree = "<group>"; };
-		E2985F731F46FAA90006BACF /* vehicle_attributes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = vehicle_attributes.json; path = Resources/vehicle_attributes.json; sourceTree = "<group>"; };
+		E2985F731F46FAA90006BACF /* test_vehicle_attributes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = test_vehicle_attributes.json; path = Resources/test_vehicle_attributes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				E23150631F4456A300BB8712 /* Localizable.strings */,
-				E2985F731F46FAA90006BACF /* vehicle_attributes.json */,
+				E2985F731F46FAA90006BACF /* test_vehicle_attributes.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -254,7 +251,7 @@
 				E23150651F4456A300BB8712 /* Localizable.strings in Resources */,
 				E231503A1F43706700BB8712 /* Assets.xcassets in Resources */,
 				E23150381F43706700BB8712 /* Main.storyboard in Resources */,
-				E2985F741F46FAA90006BACF /* vehicle_attributes.json in Resources */,
+				E2985F741F46FAA90006BACF /* test_vehicle_attributes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +304,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				E23150371F43706700BB8712 /* Base */,
-				E2985F671F45E6F20006BACF /* en-US */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +312,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				E231503C1F43706700BB8712 /* Base */,
-				E23150621F44565300BB8712 /* en-US */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -325,7 +320,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				E23150641F4456A300BB8712 /* Base */,
-				E23150661F4456BD00BB8712 /* en-US */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

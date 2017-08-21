@@ -174,6 +174,9 @@ class VehicleAttributesViewController: UIViewController, UITableViewDelegate, UI
                 self.timestampLabel.text = "\(NSLocalizedString("last_updated_on", comment:"")) \(dateFormatter.string(from: date))"
             }
         }
+        else {
+            self.timestampLabel.text = ""
+        }
         
         // Scroll view
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
