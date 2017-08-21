@@ -344,19 +344,19 @@
                                     <constraint firstItem="rMW-hc-GFU" firstAttribute="top" secondItem="FV2-ik-D5I" secondAttribute="top" id="hMr-JH-osz"/>
                                 </constraints>
                             </scrollView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6i9-cs-Bs5" userLabel="LoadingBkrdView">
-                                <rect key="frame" x="132.5" y="212.5" width="55.5" height="55.5"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUn-h7-vNz" userLabel="LoadingView">
+                                <rect key="frame" x="170.33333333333334" y="331.33333333333331" width="74" height="74"/>
                                 <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Max-T0-sft">
-                                        <rect key="frame" x="9" y="9" width="37" height="37"/>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="nJo-fa-cEJ">
+                                        <rect key="frame" x="18.333333333333314" y="18.333333333333371" width="37" height="37"/>
                                     </activityIndicatorView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.33959842995169082" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" secondItem="Max-T0-sft" secondAttribute="height" multiplier="1.5" id="22C-4H-c6h"/>
-                                    <constraint firstItem="Max-T0-sft" firstAttribute="centerY" secondItem="6i9-cs-Bs5" secondAttribute="centerY" id="ACP-QZ-8o8"/>
-                                    <constraint firstAttribute="width" secondItem="Max-T0-sft" secondAttribute="width" multiplier="1.5" id="WE0-jw-A6H"/>
-                                    <constraint firstItem="Max-T0-sft" firstAttribute="centerX" secondItem="6i9-cs-Bs5" secondAttribute="centerX" id="xr1-Nm-ZXe"/>
+                                    <constraint firstItem="nJo-fa-cEJ" firstAttribute="centerY" secondItem="RUn-h7-vNz" secondAttribute="centerY" id="Jiz-Mp-VOs"/>
+                                    <constraint firstAttribute="width" secondItem="nJo-fa-cEJ" secondAttribute="width" multiplier="2" id="UCH-Ze-pox"/>
+                                    <constraint firstAttribute="height" secondItem="nJo-fa-cEJ" secondAttribute="height" multiplier="2" id="obz-y3-R3P"/>
+                                    <constraint firstItem="nJo-fa-cEJ" firstAttribute="centerX" secondItem="RUn-h7-vNz" secondAttribute="centerX" id="poQ-uG-2vX"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -364,24 +364,19 @@
                         <constraints>
                             <constraint firstItem="FV2-ik-D5I" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="1Fg-Bt-0K7"/>
                             <constraint firstItem="wIJ-7K-526" firstAttribute="height" secondItem="mNB-lX-FJa" secondAttribute="height" id="1aD-7y-zO6"/>
+                            <constraint firstItem="RUn-h7-vNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4fN-2i-GqC"/>
                             <constraint firstItem="FV2-ik-D5I" firstAttribute="top" secondItem="mNB-lX-FJa" secondAttribute="bottom" constant="10" id="ALd-gj-jlU"/>
                             <constraint firstItem="FV2-ik-D5I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DlY-Lf-ngS"/>
                             <constraint firstItem="wIJ-7K-526" firstAttribute="centerY" secondItem="mNB-lX-FJa" secondAttribute="centerY" id="JpA-z5-QZl"/>
                             <constraint firstItem="mNB-lX-FJa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KVT-Hq-FBS"/>
-                            <constraint firstItem="6i9-cs-Bs5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OIk-yP-Mf6"/>
-                            <constraint firstItem="6i9-cs-Bs5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aAb-wH-4HH"/>
                             <constraint firstItem="mNB-lX-FJa" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="du5-Fz-1rz"/>
                             <constraint firstItem="mNB-lX-FJa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eWX-Vg-K8R">
                                 <variation key="heightClass=regular-widthClass=regular" constant="15"/>
                             </constraint>
+                            <constraint firstItem="RUn-h7-vNz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iIB-Qx-F8t"/>
                             <constraint firstAttribute="trailing" secondItem="wIJ-7K-526" secondAttribute="trailing" constant="10" id="izk-01-hSi"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FV2-ik-D5I" secondAttribute="bottom" id="zHj-UM-VuS"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="6i9-cs-Bs5"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="brandLabel" destination="ShT-rL-nYK" id="IP7-Dl-qFN"/>
@@ -395,8 +390,8 @@
                         <outlet property="fuelsTableView" destination="OfK-eK-Gd4" id="Fop-x1-vqE"/>
                         <outlet property="gearboxLabel" destination="Jyp-5s-ibb" id="U16-Ob-bti"/>
                         <outlet property="generalBox" destination="C2P-Iz-LzD" id="n5M-Af-Hzn"/>
-                        <outlet property="loadingBkrdView" destination="6i9-cs-Bs5" id="m3f-Af-cDh"/>
-                        <outlet property="loadingSpinner" destination="Max-T0-sft" id="7h9-jF-iPA"/>
+                        <outlet property="loadingBkrdView" destination="RUn-h7-vNz" id="tfv-Ss-JSc"/>
+                        <outlet property="loadingSpinner" destination="nJo-fa-cEJ" id="kc9-g1-O7u"/>
                         <outlet property="regNoLabel" destination="Fmf-4T-Vv6" id="KOk-Q3-lyd"/>
                         <outlet property="scrollContentHeightConstraint" destination="N7X-aE-8xQ" id="yNg-rZ-MlS"/>
                         <outlet property="scrollView" destination="FV2-ik-D5I" id="QVH-4K-h73"/>
